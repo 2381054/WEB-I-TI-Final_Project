@@ -1,0 +1,478 @@
+
+.text-12 {
+	font-size: .75rem
+}
+
+.text-14 {
+	font-size: .875rem
+}
+
+.text-center {
+	text-align: center
+}
+
+.text-left {
+	justify-content: flex-start;
+	text-align: left
+}
+
+.text-right {
+	justify-content: flex-end;
+	text-align: right
+}
+
+.text-grey {
+	color: #666
+}
+
+.text-light-grey {
+	color: #9b9b9b
+}
+
+.border-bottom {
+	border-bottom: 1px solid #eee
+}
+
+.border-top {
+	border-top: 1px solid #eee
+}
+
+.color-grey {
+	color: #9b9b9b
+}
+
+.color-blue {
+	color: #387ed1
+}
+
+.grey-back {
+	background-color: #fafafb
+}
+
+.show-on-mobile {
+	display: none
+}
+
+@media only screen and (max-width: 800px) {
+	.show-on-mobile {
+		display: block
+	}
+
+	.hide-on-mobile {
+		display: none
+	}
+
+	.img-right {
+		order: 2
+	}
+
+	.no-margin-mobile {
+		margin: 0
+	}
+}
+
+body {
+	padding-top: 65px;
+	color: #424242;
+	min-width: 350px
+}
+
+.mini-container {
+	width: 900px;
+	margin: auto;
+	max-width: 100%;
+	box-sizing: border-box
+}
+
+ul.list-items {
+	padding-left: 20px
+}
+
+ul.list-items li {
+	margin-bottom: 5px
+}
+
+.table-container {
+	overflow: auto;
+	width: 100%;
+	max-width: 100%
+}
+
+.table-container.has-sticky {
+	overflow: initial
+}
+
+section {
+	padding: 80px 0 0 0
+}
+
+section:first-child {
+	padding-top: 100px;
+	padding-bottom: 100px
+}
+
+section:first-child h1,
+section:first-child h2 {
+	margin-bottom: 0
+}
+
+section:first-child h5 {
+	margin-top: 10px
+}
+
+section:last-child {
+	padding-bottom: 80px
+}
+
+section.bug-sections {
+	padding-top: 35px
+}
+
+img {
+	max-width: 100%
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #eee
+}
+
+
+
+
+
+
+.landing-subheading {
+	font-size: 1.25rem;
+	font-weight: 400;
+	margin-top: 10px
+}
+
+.homepage section {
+	padding: 0 20px 120px 20px
+}
+
+.homepage section.ecosystem {
+	margin-top: 30px
+}
+
+.homepage section.ecosystem h2 {
+	margin-bottom: 40px
+}
+
+.homepage section.ecosystem .why-us-section h3 {
+	margin-bottom: 0;
+	font-size: 1.25rem
+}
+
+.homepage section.ecosystem .why-us-section p {
+	margin-top: 5px;
+	margin-bottom: 32px;
+	color: #666
+}
+
+.homepage section.ecosystem .why-us-section:last-child p {
+	margin-bottom: 0
+}
+
+.homepage section .demo-link {
+	margin-left: 24px
+}
+
+.homepage section:last-child {
+	padding-bottom: 100px
+}
+
+.homepage section.landing {
+	margin-top: 10vh
+}
+
+.homepage section.landing .button {
+	margin-top: 25px
+}
+
+.homepage section .landing-image {
+	margin-bottom: 60px;
+	max-height: 45vh
+}
+
+.homepage section .press-strip {
+	margin-top: 60px
+}
+
+.homepage section .press-strip img:hover {
+	opacity: .8
+}
+
+.homepage section .ecosystem-image {
+	max-width: 100%;
+	width: auto
+}
+
+.homepage .pricing .pricing-link {
+	margin-top: 0;
+	padding-left: 10px
+}
+
+.homepage .pricing .pricing-box {
+	display: inline-block
+}
+
+.homepage .pricing .pricing-box img {
+	width: 120px;
+	position: relative;
+	top: 22px
+}
+
+.homepage .pricing .pricing-box p {
+	font-size: 10px;
+	margin: 0;
+	color: #666;
+	line-height: 16px
+}
+
+.homepage .pricing .pricing-box p,
+.homepage .pricing .pricing-box img {
+	display: inline-block
+}
+
+.homepage .pricing .pricing-box:last-child img {
+	top: 27px
+}
+
+.homepage .pricing .pricing-box:last-child p {
+	position: relative;
+	left: -6px
+}
+
+.homepage .pricing .pricing-box:nth-child(1) p,
+.homepage .pricing .pricing-box:nth-child(2) p {
+	position: relative;
+	left: -25px
+}
+
+@media only screen and (max-width: 1125px) {
+	.homepage .pricing .pricing-box img {
+		width: 100px
+	}
+}
+
+@media only screen and (max-width: 1020px) {
+	.homepage .pricing .pricing-box img {
+		width: 95px
+	}
+
+	.homepage .pricing .pricing-box:nth-child(1) p,
+	.homepage .pricing .pricing-box:nth-child(2) p {
+		left: -20px
+	}
+}
+
+@media only screen and (max-width: 995px) {
+	.homepage .pricing .pricing-box img {
+		width: 85px
+	}
+
+	.homepage .pricing .pricing-box:nth-child(1) p,
+	.homepage .pricing .pricing-box:nth-child(2) p {
+		left: -15px;
+		top: 5px
+	}
+
+	.homepage .pricing .pricing-box:last-child p {
+		left: -5px;
+		top: 5px
+	}
+}
+
+@media only screen and (max-width: 1420px) {
+	.homepage .marketing {
+		padding-top: 100px !important
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.homepage .ecosystem-image {
+		width: auto !important;
+		max-width: 100% !important;
+		margin-top: 20px
+	}
+
+	.homepage .img-margin {
+		margin-bottom: 30px
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.homepage .landing {
+		margin-top: 4vh !important;
+		height: auto !important
+	}
+
+	.homepage .landing .landing-image {
+		margin-bottom: 45px;
+		height: auto
+	}
+}
+
+
+@media only screen and (max-width: 550px) {
+	.hide-on-mobile {
+		display: none
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	
+
+	.relative-section {
+		position: relative
+	}
+
+	.relative-section .container {
+		margin-top: 120px
+	}
+
+}
+
+
+.kite-sections {
+	padding: 40px 0
+}
+
+.kite-sections .demo-link {
+	margin-left: 24px
+}
+
+.kite-sections h2 {
+	font-weight: 500
+}
+
+.kite-sections .mini-container a {
+	margin-top: 20px
+}
+
+.kite-sections .img-right-img .seven {
+	margin-left: 4%;
+	order: 2
+}
+
+.kite-sections .img-right-img .six:last-child {
+	margin-left: 0
+}
+
+.kite-sections .kite-partner-links {
+	display: flex;
+	align-items: center
+}
+
+.kite-sections .kite-partner-links a {
+	display: inline-block;
+	margin-right: 50px
+}
+
+.kite-sections .kite-partner-links a img {
+	width: 95px
+}
+
+.kite-sections .kite-mobile-links {
+	margin-top: 50px
+}
+
+.kite-sections .kite-mobile-links a img {
+	height: 45px
+}
+
+.kite-sections .console-ipo img {
+	max-width: 350px
+}
+
+.kite-sections .invest-head-img {
+	position: absolute;
+	width: 450px !important;
+	top: -90px;
+	left: calc(50% - 225px);
+	transition: .2s all
+}
+
+.kite-sections .invest-head-img:hover {
+	opacity: .9;
+	cursor: pointer
+}
+
+.kite-sections .invest-play-img {
+	position: absolute;
+	width: 60px !important;
+	top: -2%;
+	left: calc(50% - 25px);
+	transition: .2s all
+}
+
+.kite-sections .invest-play-img:hover {
+	cursor: pointer
+}
+
+.kite-sections .products-video-iframe {
+	display: none;
+	transition: .2s all;
+	position: absolute;
+	top: -120px;
+	left: calc(50% - 310px);
+	border: none;
+	max-width: 100%
+}
+
+.relative-section {
+	position: relative
+}
+
+.relative-section .container {
+	margin-top: 160px
+}
+
+.kitefooter-container {
+	padding-bottom: 60px
+}
+
+@media only screen and (max-width: 550px) {
+	
+
+	.kite-sections {
+		padding-left: 20px;
+		padding-right: 20px
+	}
+
+	.kite-sections .img-right-img .six:first-child {
+		margin-left: 0
+	}
+
+	.kite-sections .kite-partner-links {
+		display: block;
+		text-align: center
+	}
+
+	.kite-sections .kite-partner-links a {
+		display: block;
+		margin-right: 0;
+		margin-bottom: 20px
+	}
+
+	
+}
+
+@media only screen and (max-width: 800px) {
+	ul {
+		padding: 0;
+		text-align: left;
+		list-style-position: inside
+	}
+
+	ul li h5 {
+		text-align: left !important
+	}
+}
+
+
+
+
+

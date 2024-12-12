@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Zerodha: Online brokerage platform for stock trading & investing</title>
+    <link rel="image_src" href="images/landing.png" />
+    <link rel="icon" type="image/png" href="static/images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,500" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c121f5569d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-responsive row between">
+                <div class="relative-section five columns md:three">
+                    <a href="/">
+                        <img class="logo-img" src="static/images/logo.svg" alt="Zerodha logo">
+                    </a>
+                </div>
+                <div class="nav-active seven columns" role="navigation" aria-label="main navigation">
+                    <ul class="navbar-links items-center">
+                            <li class="hide-on-small">
+                                <a class="nav-links" href="index.html">Homepage</a>
+                            </li>
+                            <li class="hide-on-small">
+                                <a class="nav-links" href="biodata.html">Biodata</a>
+                            </li>
+                            <li class="hide-on-small">
+                                <a class="nav-links" href="contact_us.html">Contact Us</a>
+                            </li>
+                            <li class="hide-on-small">
+                                <a class="nav-links" href="posts.html">Additional Page</a>
+                            </li>
+                            <li class="hide-on-small">
+                                <a class="nav-links" href="freepage.html">Freepage</a>
+                            </li>
+                        <li id="navbar_menu pl-10">
+                            <div class="cursor-pointer" id="menu_btn" title="Menu">
+                                <div id="nav-icon3">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div id="menu" class="navbar-menu text-left">
+                                <ul class="lg:hidden navbar-links show-on-mobile flex flex-wrap">
+                                    <li>
+                                        <a class="nav-links" href="index.html">Homepage</a>
+                                    </li>
+                                    <li >
+                                        <a class="nav-links" href="biodata.html">Biodata</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-links" href="contact_us.html">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-links" href="posts.html">Additional Page</a>
+                                    </li>
+                                    <li >
+                                        <a class="nav-links" href="freepage.html">Freepage</a>
+                                    </li>
+                                </ul>
+                                <div class=" products-list flex flex-row">
+                                    <div class="three columns">
+                                        <a class="text-center" href="https://kite.zerodha.com">
+                                            <img class="mx-auto" src="static/images/products/kite-logo.svg" alt=""><br class="hide-on-mobile">
+                                            <span>
+                                                <strong>Kite</strong>
+                                            </span>
+                                            <br class="hide-on-small">
+                                            <span class="text-light-grey text-12 hide-on-small">
+                                                Trading platform
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="three columns">
+                                        <a class="text-center" href="https://console.zerodha.com">
+                                            <img class="mx-auto" src="static/images/products/console.svg" alt=""><br class="hide-on-mobile">
+                                            <span>
+                                                <strong>Console</strong>
+                                            </span>
+                                            <br class="hide-on-small">
+                                            <span class="text-light-grey text-12 hide-on-small">
+                                                Backoffice
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="three columns">
+                                        <a class="text-center" href="https://kite.trade">
+                                            <img class="mx-auto" src="static/images/products/kite-connect.svg" alt=""><br class="hide-on-mobile">
+                                            <span>
+                                                <strong>Kite Connect</strong>
+                                            </span>
+                                            <br class="hide-on-small">
+                                            <span class="text-light-grey text-12 hide-on-small">
+                                                Trading APIs
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="three columns">
+                                        <a class="text-center" href="https://coin.zerodha.com">
+                                            <img class="mx-auto" src="static/images/products/coin.svg" alt=""><br class="hide-on-mobile">
+                                            <span>
+                                                <strong>Coin</strong>
+                                            </span>
+                                            <br class="hide-on-small">
+                                            <span class="text-light-grey text-12 hide-on-small">
+                                                Mutual funds
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="three columns show-on-mobile">
+                                        <a href="https://zerodha.com/varsity/" class="text-center">
+                                            <img class="nav-edu-img" src="static/images/products/varsity.png" alt=""><br>
+                                            <span><strong>Varsity</strong></span>
+                                        </a>
+                                    </div>
+                                    <div class="three columns show-on-mobile">
+                                        <a href="https://tradingqna.com/" class="text-center">
+                                            <img class="nav-edu-img" src="static/images/products/tqna.png" alt=""><br>
+                                            <span><strong>Trading Q&A</strong></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="menu-footer">
+                                    <div class="row between">
+                                        <div class="seven columns">
+                                            <div class="row between">
+                                                <div class="six columns">
+                                                    <p><strong>Utilities</strong></p>
+                                                    <a href="https://zerodha.com/brokerage-calculator/">Homepage</a>
+                                                    <a href="https://zerodha.com/margin-calculator/">Biodata</a>
+                                                    <a href="https://zerodha.com/marketintel/holiday-calendar/">Contact Us</a>
+                                                    <a href="https://zerodha.com/markets">Posts</a>
+                                                    <a href="https://zerodha.com/markets">Freepage</a>
+
+                                                </div>
+                                                <div class="six columns md:six">
+                                                    <p><strong>Updates</strong></p>
+                                                    <a href="https://zerodha.com/z-connect/">Z-Connect blog</a>
+                                                    <a href="https://pulse.zerodha.com/">Pulse News</a>
+                                                    <a href="https://zerodha.com/marketintel/bulletin/">Circulars / Bulletin</a>
+                                                    <a href="https://zerodha.com/ipo/">IPOs</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="five columns education hide-on-small">
+                                            <p><strong>Education</strong></p>
+                                            <a href="https://zerodha.com/varsity/" class="text-center">
+                                                <img src="static/images/products/varsity.png" alt=""><br>
+                                                <span>Varsity</span>
+                                            </a>
+                                            <a href="https://tradingqna.com/" class="text-center">
+                                                <img src="static/images/products/tqna.png" alt=""><br>
+                                                <span>Trading Q&A</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show-on-mobile nav-mobile-signup">
+                                    <!-- <a href="https://zerodha.com/open-account/">Sign up <i class="icon icon-arrow-right"></i></a> -->
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- nav items //-->
+            </div>
+        </nav>
+
+    <main class="content parent-content">
+
+
+        <main class="content">
+            <div class="homepage">
+                <!-- Invest in everything -->
+                <section class="text-center landing">
+                    <div class="container">
+                        <img class="landing-image" src="static/images/landing.png" alt="Online stock brokerage platform for trading and investing in stocks, futures, options, commodities, currency, ETFs, mutual funds, and bonds." />
+                        <h1 class="landing-heading text-center">Invest in everything</h1>
+                        <p class="landing-subheading text-center">
+                            Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.
+                        </p>
+                        <a href="/open-account" class="button" id="acop_link">Sign up for free</a>
+                    </div>
+                </section>
+                <!-- Whole ecosystem -->
+                <section class="ecosystem">
+                    <div class="container">
+                        <div class="row between middle">
+                            <div class="lg:five lg:columns flex flex-col mx-auto w-fit">
+                                <h2>Trust with confidence</h2>
+                                <div class="lg:why-us-section max-w-[600px] ">
+                                    <h3>
+                                        Customer-first always
+                                    </h3>
+                                    <p>
+                                        That's why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India.
+                                    </p>
+                                </div>
+                                <div class="lg:why-us-section max-w-[600px]">
+                                    <h3>No spam or gimmicks</h3>
+                                    <p>
+                                        No gimmicks, spam, "gamification", or annoying push notifications. High quality apps that you use at your pace, the way you like.
+                                    </p>
+                                </div>
+                                <div class="lg:why-us-section max-w-[600px]">
+                                    <h3>The Zerodha universe</h3>
+                                    <p>
+                                        Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs.
+                                    </p>
+                                </div>
+                                <div class="lg:why-us-section max-w-[600px]">
+                                    <h3>Do better with money</h3>
+                                    <p>
+                                        With initiatives like <a href="https://support.zerodha.com/category/trading-and-markets/kite-features/nudges/articles/what-is-nudge" target="_blank">Nudge</a> and <a href="https://support.zerodha.com/category/console/profile/killswitch/articles/what-is-the-kill-switch" target="_blank">Kill Switch</a>, we don't just facilitate transactions, but actively help you do better with your money.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="seven columns mx-auto">
+                                <div class="text-center">
+                                    <a href="/products"><img src="static/images/ecosystem.png" alt="The Zerodha Universe" class="ecosystem-image" /></a>
+                                </div>
+                                <p class="text-center">
+                                    <a href="/products">Explore our products<i class="icon-arrow-right"></i></a>
+                                    <a class="demo-link" href="https://kite-demo.zerodha.com">Try Kite demo <i class="icon-arrow-right"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="press-strip text-center mx-auto w-fit">
+                        <a href="/media"><img src="static/images/press-logos.png" alt=""/></a>
+                    </div>
+                </section>
+                <!-- Unbeatable pricing -->
+                <section class="pricing">
+                    <div class="container">
+                        <div class="lg:row lg:v-align lg:around flex flex-col">
+                            <div class="lg:columns lg:five w-full">
+                                <h2>Unbeatable pricing</h2>
+                                <p>
+                                    We pioneered the concept of discount broking and price transparency
+                                    in India. Flat fees and no hidden charges.
+                                </p>
+                            </div>
+                            <div class="lg:columns lg:seven flex flex-wrap max-w-[500px] mb-10">
+                                <div class="pricing-box">
+                                    <img src="static/images/pricing-eq.svg" alt="" />
+                                    <p>Free account<br>opening</p>
+                                </div>
+                                <div class="pricing-box">
+                                    <img src="static/images/pricing-eq.svg" alt="" />
+                                    <p>Free equity delivery<br>and direct mutual funds</p>
+                                </div>
+                                <div class="pricing-box">
+                                    <img src="static/images/other-trades.svg" alt="" />
+                                    <p>Intraday and<br>F&O</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="pricing-link">
+                            <a href="/charges/">See pricing <i class="icon-arrow-right"></i></a>
+                        </p>
+                    </div>
+                </section>
+                <!-- open free education -->
+                <section>
+                    <div class="container">
+                        <div class="lg:row lg:between lg:v-align flex flex-col">
+                            <div class="lg:columns lg:five lg:text-center mx-auto mb-10">
+                                <a href="https://zerodha.com/varsity/"><img class="img-margin" src="static/images/index-education.svg" alt=""/></a>
+                            </div>
+                            <div class="lg:columns lg:six mx-auto">
+                                <h2 class="lg:text-4xl text-sm">Free and open market education</h2>
+                                <p>
+                                    Varsity, the largest online stock market education book in the world
+                                    covering everything from the basics to advanced trading.
+                                </p>
+                                <a href="https://zerodha.com/varsity">Varsity <i class="icon-arrow-right"></i></a>
+                                <p class="space-top">
+                                    TradingQ&A, the most active trading and investment community in
+                                    India for all your market related queries.
+                                </p>
+                                <a href="https://tradingqna.com">TradingQ&A <i class="icon-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section class="kite-sections text-center kitefooter-container">
+                <div class="mini-container">
+
+                    <h2>Open a Zerodha account</h2>
+                    <p class="text-grey text-med">
+                        Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O trades.
+                    </p>
+
+                    <a href="https://zerodha.com/open-account/" class="button">Sign up for free</a>
+                </div>
+            </section>
+        </main>
+
+
+
+    </main>
+    <script type="text/javascript" src="static/js/navbar.js"></script>
+    <script type="text/javascript" src="static/js/tinytabs.min.js"></script>
+    <script type="text/javascript" src="static/js/tooltip.js"></script>
+    <script type="text/javascript" src="https://zerodha.com/zerodha.referral.js"></script>
+
+    <script type="text/javascript" src="static/js/analytics.js"></script>
+
+    <noscript>
+        <p><img src="//matomo.zerodha.net/matomo.php?idsite=3&rec=1" style="border:0;" alt="" /></p>
+    </noscript>
+
+    <footer id="footer" class="footer">
+        <div class="container p-8">
+            <div class="lg:row lg:between main-footer flex flex-col gap-8">
+                <div class="lg:columns lg:three max-w-[300px]">
+                    <div class="footer-logo">
+                        <img src="static/images/logo.svg" alt="" />
+                    </div>
+
+                    <!-- <h5 class="contactnumber"><i class="icon-phone"></i>+91 80 4718 1888</h5> -->
+                    <p class="copyright text-grey">© 2010 - 2024, Zerodha Broking Ltd.</p>
+                    <p class="copyright text-grey">All rights reserved.</p>
+                    <ul class="social">
+                        <li>
+                            <a target="_blank" href="https://twitter.com/zerodhaonline">
+                                <img src="static/images/x-twitter.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://facebook.com/zerodha.social"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://instagram.com/zerodhaonline/"><script src="https://kit.fontawesome.com/c121f5569d.js" crossorigin="anonymous"></script></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://linkedin.com/company/zerodha">
+                              <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <ul class="social">
+                        <li>
+                            <a target="_blank" href="https://www.youtube.com/@zerodhaonline">
+                                <img class="youtube-logo" src="static/images/youtube.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://whatsapp.com/channel/0029Va8tzF0EquiIIb9j791g">
+                                <img class="whatsapp-logo" src="static/images/whatsapp-logo.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://t.me/zerodhain">
+                              <i class="fa-brands fa-telegram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:columns lg:three max-w-[300px] ">
+                    <ul class="list-style">
+                        <li class="nav-head">Company</li>
+                        <li><a href="https://zerodha.com/about/">About</a></li>
+                        <li><a href="https://zerodha.com/products/">Products</a></li>
+                        <li><a href="https://zerodha.com/pricing/">Pricing</a></li>
+                        <li>
+                            <a href="https://zerodha.com/refer/">Referral programme</a>
+                        </li>
+                        <li><a href="https://careers.zerodha.com">Careers</a></li>
+                        <li><a href="https://zerodha.tech">Zerodha.tech</a></li>
+                        <li><a href="https://zerodha.com/media/">Press & media</a></li>
+                        <li><a href="https://zerodha.com/cares/">Zerodha Cares (CSR)</a></li>
+                    </ul>
+                </div>
+                <div class="lg:columns lg:three max-w-[300px] ">
+                    <ul class="list-style">
+                        <li class="nav-head">Support</li>
+                        <li><a href="https://zerodha.com/contact/">Contact us</a></li>
+                        <li>
+                            <a href="https://support.zerodha.com">Support portal</a>
+                        </li>
+                        <li><a href="https://zerodha.com/z-connect/">Z-Connect blog</a></li>
+                        <li><a href="https://zerodha.com/charges/">List of charges</a></li>
+                        <li>
+                            <a href="https://zerodha.com/resources/">Downloads & resources</a>
+                        </li>
+                        <li>
+                            <a href="/videos">Videos</a>
+                        </li>
+                        <li>
+                            <a href="https://stocks.zerodha.com">Market overview</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://support.zerodha.com/category/your-zerodha-account/your-profile/ticket-creation/articles/how-do-i-create-a-ticket-at-zerodha">How to file a complaint?</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://support.zerodha.com/category/your-zerodha-account/your-profile/ticket-creation/articles/track-complaints-or-tickets">Status of your complaints</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:columns lg:three max-w-[300px] ">
+                    <ul class="list-style">
+                        <li class="nav-head">Account</li>
+                        <li>
+                            <a href="https://zerodha.com/open-account/">Open an account</a>
+                        </li>
+                        <li>
+                            <a href="https://zerodha.com/fund-transfer/">Fund transfer</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row smallprint">
+                <p>
+                    Zerodha Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI
+                    Registration no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha Broking Ltd. – SEBI Registration no.: IN-DP-431-2019
+                    Commodity Trading through Zerodha Commodities Pvt. Ltd. MCX: 46025; NSE-50001
+                    – SEBI Registration no.: INZ000038238 Registered Address: Zerodha
+                    Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public
+                    School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For
+                    any complaints pertaining to securities broking please write to
+                    <a href="/cdn-cgi/l/email-protection#8ae9e5e7fae6ebe3e4fef9caf0eff8e5eee2eba4e9e5e7"><span class="__cf_email__" data-cfemail="781b171508141911160c0b38021d0a171c1019561b1715">[email protected]</span></a>, for
+                    DP related to <a href="/cdn-cgi/l/email-protection#a6c2d6e6dcc3d4c9c2cec788c5c9cb"><span class="__cf_email__" data-cfemail="791d0939031c0b161d1118571a1614">[email protected]</span></a>. Please
+                    ensure you carefully read the Risk Disclosure Document as prescribed by
+                    SEBI | ICF
+                </p>
+                <p>
+                    Procedure to file a complaint on <a href="https://scores.sebi.gov.in/" target="_blank">SEBI SCORES</a>:
+                    Register on SCORES portal. Mandatory details for filing complaints on SCORES: Name, PAN, Address, Mobile Number,
+                    E-mail ID.
+                    Benefits: Effective Communication, Speedy redressal of the grievances
+                </p>
+                <p>
+                    <a href="https://smartodr.in/" target="_blank">Smart Online Dispute Resolution</a> | <a href="https://zerodha-common.s3.ap-south-1.amazonaws.com/Downloads-and-resources/Smart%20ODR%20info.pdf" target="_blank">Grievances Redressal Mechanism</a>
+                </p>
+                <p>
+                    Investments in securities market are subject to market risks; read all the related documents carefully before investing.
+                </p>
+                <p>
+                    Attention investors: 1) Stock brokers can accept securities as margins from clients only by way of pledge in the depository system w.e.f September 01, 2020. 2) Update your e-mail and phone number with your stock broker / depository participant and receive OTP directly from depository on your e-mail and/or mobile number to create pledge. 3) Check your securities / MF / bonds in the consolidated account statement issued by NSDL/CDSL every month.
+                </p>
+                <p>
+                    "Prevent unauthorised transactions in your account. Update your mobile
+                    numbers/email IDs with your stock brokers. Receive information of your
+                    transactions directly from Exchange on your mobile/email at the end of
+                    the day. Issued in the interest of investors. KYC is one time exercise
+                    while dealing in securities markets - once KYC is done through a SEBI
+                    registered intermediary (broker, DP, Mutual Fund etc.), you need not
+                    undergo the same process again when you approach another intermediary."
+                    Dear Investor, if you are subscribing to an IPO, there is no need to
+                    issue a cheque. Please write the Bank account number and sign the IPO
+                    application form to authorize your bank to make payment in case of
+                    allotment. In case of non allotment the funds will remain in your bank
+                    account. As a business we don't give stock tips, and have not authorized
+                    anyone to trade on behalf of others. If you find anyone claiming to be
+                    part of Zerodha and offering such services, please
+                    <a href="https://support.zerodha.com/category/your-zerodha-account/your-profile/articles/how-do-i-place-a-complaint-at-zerodha">create
+                        a ticket here</a>.
+                </p>
+            </div>
+            <div class="footer-graveyard-links text-center">
+                <ul>
+                    <li>
+                        <a href="https://fti.unai.edu/">FTI</a>
+                    </li>
+                    <li>
+                        <a href="https://unai.edu/">UNAI</a>
+                    </li>
+                    <li>
+                        <a href="https://jurnal.unai.edu/index.php/teika">TeIKa</a>
+                    </li>
+                    <li>
+                        <a href="https://zerodha.com/terms-and-conditions/">Terms & conditions</a>
+                    </li>
+                    <li>
+                        <a href="https://zerodha.com/policies-and-procedures/">Policies & procedures</a>
+                    </li>
+                    <li>
+                        <a href="https://zerodha.com/privacy-policy/">Privacy policy</a>
+                    </li>
+                    <li>
+                        <a href="https://zerodha.com/disclosure/">Disclosure</a>
+                    </li>
+                    <li>
+                        <a href="https://zerodha.com/investor-attention/">For investor's attention</a>
+                    </li>
+                    <li>
+                        <a href="https://zerodha.com/tos/investor-charter/">Investor charter</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+</body>
+</html>
